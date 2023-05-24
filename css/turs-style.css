@@ -1,0 +1,239 @@
+header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 30px black;
+    text-align: center;
+}
+
+.peshera-altinbeshik {
+    background-image: url(../img/turs-fon/27.ПещераАлтынбешик.jpg);
+}
+
+.afrodisias {
+    background-image: url(../img/turs-fon/26.Афродисиас.jpg);
+}
+
+.demre-mira-kekova {
+    background-image: url(../img/turs-fon/25.ДемреМираКекова.jpg);
+}
+
+.plyaj-kaputash {
+    background-image: url(../img/turs-fon/24.ПляжКапуташ.jpg);
+}
+
+.oludeniz {
+    background-image: url(../img/turs-fon/23.Олюдениз.jpg);
+}
+
+.ostrov-suluada {
+    background-image: url(../img/turs-fon/22.ОстровСулуада.jpg);
+}
+
+.kappadokia-za-1-deny {
+    background-image: url(../img/turs-fon/21.Каппадокия.jpg);
+}
+
+.kappadokia-za-2-dnya {
+    background-image: url(../img/turs-fon/20.Каппадокия.jpg);
+}
+
+.kappadokia-za-3-dnya {
+    background-image: url(../img/turs-fon/19.Каппадокия.jpg);
+}
+
+.green-kanyon {
+    background-image: url(../img/turs-fon/18.ГринКаньон.jpg);
+}
+
+.kanyon-geynyuk {
+    background-image: url(../img/turs-fon/17.КаньонГёйнюк.jpg);
+}
+
+.tazi-kanyon {
+    background-image: url(../img/turs-fon/16.ТазыКаньон.jpg);
+}
+
+.adrasan {
+    background-image: url(../img/turs-fon/15.Адрасан.jpg);
+}
+
+.gora-himera {
+    background-image: url(../img/turs-fon/14.ГораХимера.jpg);
+}
+
+.gora-tahtali {
+    background-image: url(../img/turs-fon/13.ГораТахталы.jpg);
+}
+
+.alanya-1 {
+    background-image: url(../img/turs-fon/12.АланьяОдин.jpg);
+}
+
+.alanya-2 {
+    background-image: url(../img/turs-fon/11.АланьяДва.jpg);
+}
+
+.alanya-3 {
+    background-image: url(../img/turs-fon/10.АланьяТри.jpg);
+}
+
+.lavandovie-poly-v-isparte {
+    background-image: url(../img/turs-fon/9.ЛавандовыеПоля.jpg);
+}
+
+.cvetushie-liliyi {
+    background-image: url(../img/turs-fon/8.ЦветущиеЛилии.jpg);
+}
+
+.festival-ros-v-isparte {
+    background-image: url(../img/turs-fon/7.ФестивальРозВИспарте.jpg);
+}
+
+.gornolijniy-kurort-uludag {
+    background-image: url(../img/turs-fon/6.ГорнолыжныйКурортУлудаг.jpg);
+}
+
+.gornolijniy-kurort-salda {
+    background-image: url(../img/turs-fon/5.ГорнолыжныйКурортСалда.jpg);
+}
+
+.gornolijniy-kurort-palandoken {
+    background-image: url(../img/turs-fon/4.ГорнолыжныйКурортПаландокен.jpg);
+}
+
+.gornolijniy-kurort-saklikent {
+    background-image: url(../img/turs-fon/3.ГорнолыжныйКурортСаклыкент.jpg);
+}
+
+.gornolijniy-kurort-davrazm {
+    background-image: url(../img/turs-fon/2.ГорнолыжныйКурортДавраз.jpg);
+}
+
+.gornolijniy-kurort-arjies {
+    background-image: url(../img/turs-fon/1.ГорнолыжныйКурортЭрджиес.jpg);
+}
+
+
+
+
+
+h2 {
+    text-align: center;
+}
+
+
+
+.swiper {
+    padding-bottom: 0px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    /* color: #899ca8; */
+    color: #a88989;
+}
+
+.swiper-button-prev:after {
+    /* content: '🡄'; */
+    content: '←';
+}
+
+.swiper-button-next:after {
+    /* content: '🡆'; */
+    content: '→';
+}
+
+.swiper-pagination {
+    transform: translate(0, 50px);
+    z-index: 10;
+    position: relative;
+}
+
+.swiper-pagination-bullet-active {
+    /* background-color: #A7BDCC; */
+    background-color: #cca7a7;
+}
+
+.swiper-pagination-bullet {
+    /* border: 1px solid #A7BDCC; */
+    border: 1px solid #cca7a7;
+}
+
+.swiper-button-prev {
+    left: 50%;
+    top: 114%;
+    transform: translate(-150%, -100%);
+}
+
+.swiper-button-next {
+    right: 50%;
+    top: 114%;
+    transform: translate(150%, -100%);
+}
+
+.gallery__slider {
+    width: 410px;
+    min-width: 280px;
+    position: relative;
+}
+
+.gallery__slider .swiper-slide {
+    border: 2px solid #cca7a7;
+    /* border: 2px solid #A7BDCC; */
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.gallery__slider .swiper-wrapper .swiper-slide img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+
+.about-place__elements {
+    gap: 60px;
+}
+
+.about-place__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.about-place__item {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.about-tour {
+    box-shadow: 0 0 30px inset black;
+}
+
+.about-tour__elements {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about-tour__item {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+

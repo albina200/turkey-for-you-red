@@ -1,0 +1,9 @@
+@media (max-width:375px) {
+    .swiper-button-prev {
+        transform: translate(-150%, -70%);
+    }
+
+    .swiper-button-next {
+        transform: translate(150%, -70%);
+    }
+}

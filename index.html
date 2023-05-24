@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turkey For You</title>
+
+    <link rel="stylesheet" href="./css/zero.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:wght@900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="nav__elements">
+                <a href=""><img class="logo" src="./img/logo2.png" alt=""></a>
+
+
+                <div class="nav__links">
+                    <a id="aboutUs" href="#whyWe">О нас</a>
+                    <a id="transfer" href="#Transfer">Трансфер</a>
+                    <a id="turs" href="#Turs">Экскурсии</a>
+                    <a id="reserve" class="a__reserve" href="#form">Бронировать</a>
+                </div>
+
+                <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <header>
+        <div class="container">
+            <div class="__elements header__elements">
+                <div class="header__info">
+                    <h1>Индивидуальные туры по Анталии</h1>
+                    <hr>
+                    <p>Открой для себя новую Tурцию</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section id="whyWe" class="about-us">
+        <div class="container">
+            <h2>Почему мы?</h2>
+            <div class="__elements about-us__elements">
+                <div class="about-us__text">
+                    <p>
+                        Наша компания предоставляет <span>индивидуальный</span> экскурсионный трансфер по всем
+                        туристическим
+                        и
+                        нетуристическим местам удивительной Турции. Мы предлагаем своим клиентам частные туры на
+                        автомобиле.
+                        Отправляясь с нами в путешествие, вы избегаете утомительной поездки на автобусе и не зависите от
+                        группы.
+                        Вас не возят по множеству магазинов, и никто не подгоняет вас и не устанавливает ограничений по
+                        времени,
+                        пока вы наслаждаетесь прогулками. С нами <span>безопасно</span>, <span>комфортно</span>,
+                        <span>надёжно</span>.
+                    </p>
+                    <p>
+                        Но это только слова. <a id="Reserve" href="#reserve">Закажите</a> индивидуальный трансфер и
+                        убедитесь в этом сами!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="reviews">
+        <div class="container">
+            <h2>Отзывы</h2>
+            <div class="swiper reviews__slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <p>
+                            "Отличный тур, прекрасный серверс, замечательные фотографии и настроение! Рекомендую!"
+                        </p>
+                        <h3><i class="fa-solid fa-user"></i> Клиент, Мария</h3>
+                        <!-- спросить у Лёши -->
+                    </div>
+
+                    <div class="swiper-slide">
+                        <p>
+                            После нашей поездки, начала ощущать Турцию по-новому, теперь она навсегда в моём сердце 🧡
+                            спасибо 😊."
+                        </p>
+                        <h3><i class="fa-solid fa-user"></i> Клиент, Анастасия</h3>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <p>
+                            "Вчерашняя поездка на поля была прекрасная! Спасибо огромное, за хорошую атмосферу всё было
+                            легко и спокойно)."
+                        </p>
+                        <h3><i class="fa-solid fa-user"></i> Клиент, Вероника</h3>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button swiper-button-prev"></div>
+                <div class="swiper-button swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="transfer" id="Transfer">
+        <div class="container">
+            <h2>Трансфер</h2>
+
+            <div class="swiper transfer__slider">
+                <div class="swiper-wrapper" id="transferList">
+                    <!-- Данные берутся из js -->
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="turs" id="Turs">
+        <div class="container">
+            <h2>Экскурсии</h2>
+            <div class="swiper turs__slider">
+                <div class="swiper-wrapper" id="tursList">
+                    <!-- Данные берутся из js -->
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+    </section>
+
+
+
+    <section class="reserve" id="form">
+        <div class="container">
+            <h2>Бронировать</h2>
+            <div class="reserve__elements">
+                <p>Заполните форму, и мы вам напишем в течении дня.</p>
+                <form action="">
+
+                    <input required type="text" name="" id="" placeholder="Ваше имя и фамилия">
+                    <input required type="tel" placeholder="Ваш номер телефона">
+
+                    <label for="WDYW">Выберите что Вы хотите забронировать?</label>
+
+                    <select name="" id="WDYW">
+                        <option value="">Трансфер</option>
+                        <option value="">Экскурсию</option>
+                        <option value="">Трансфер и экскурсию</option>
+                    </select>
+
+                    <button>Бронировать</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="footer__elements">
+                
+                <div class="footer__item">
+                    <a href="../index.html"><img src="./img/logo2.png" alt="" width="115px"></a>
+                    <p>Все права защищены, зуб даю</p>
+                </div>
+
+                <div class="footer__social">
+                    <a href="https://www.instagram.com/_turkey_transfer_/">
+                        <span><i class="fa-brands fa-instagram"></i></span>
+                    </a>
+                    <a href="#">
+                        <span><i class="fa-brands fa-facebook"></i></span>
+                    </a>
+                    <a href="#">
+                        <span><i class="fa-brands fa-whatsapp"></i></span>
+                    </a>
+                    <a href="#">
+                        <span><i class="fa-brands fa-telegram"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./js/stor.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="https://kit.fontawesome.com/d8abf9e13d.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
